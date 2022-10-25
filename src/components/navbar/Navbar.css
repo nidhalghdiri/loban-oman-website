@@ -1,0 +1,138 @@
+
+.Navbar .Logo{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Navbar .Logo .LogoLink{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Navbar .LogoEng{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Navbar .Logo .LogoLinkEng{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Navbar .Logo img{
+    width: 50%;
+}
+.Navbar .LogoEng img{
+    width: 50%;
+}
+.Navbar .Nav .NavbarItems{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar .Nav .NavbarItems a{
+    font-size: 1.5rem;
+    color: #e8bf74;
+    font-family: "SukarRegular",sans-serif; 
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.Navbar .Nav .NavbarItems a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Navbar .NavEng .NavbarItemsEng{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar .NavEng .NavbarItemsEng a{
+    font-size: 1.3rem;
+    color: #e8bf74;
+    font-family: "SukarRegular",sans-serif;
+    cursor: pointer;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Navbar .NavEng .NavbarItemsEng a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+ 
+}
+.Navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(232, 191, 116, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar-light .navbar-toggler{
+  border: 1px solid rgba(232, 191, 116, 0.8);
+  border-radius: .5rem;
+}
+@media(max-width: 1200px){
+    .ENG .NavEng .NavbarItemsEng a{
+    font-size: 1rem;
+    }
+}
+@media(max-width: 991px){
+    .Navbar .Logo img{
+        width: 50%;
+    }
+}
+@media(max-width: 768px){
+    .Navbar .Logo{
+        width: 40%;
+    }
+    .Navbar .Logo .LogoLink{
+        justify-content: flex-end;
+    }
+    .Navbar .Logo img{
+        width: 35%;
+    }
+    .Navbar .Nav .NavbarItems{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ENG .NavEng .NavbarItemsEng{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+@media(max-width: 650px){
+    .Navbar .Logo img{
+        width: 50%;
+    }
+    .Navbar .LogoEng img{
+        width: 70%;
+    }
+    .Navbar .Nav .NavbarItems a{
+        font-size: 1rem;
+    }
+    .Navbar .NavEng .NavbarItemsEng a{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 450px){
+    .Navbar .Logo img{
+        width: 60%;
+    }
+    .Navbar .LogoEng img{
+        width: 90%;
+    }
+}

@@ -1,0 +1,93 @@
+.Product{
+    width: 100%;
+    background-color: #000000;
+    padding: 1rem;
+}
+.Product .BackBtn{
+    width: 80%;
+    margin: 1rem auto;
+
+}
+.Product .BackBtn .Back{
+    color: #e8bf74;
+    font-size: 2.5rem;
+}
+.Product .BackBtn .Back:hover{
+    color: #ffffff;
+}
+.Product .ProductMain{
+    width: 80%;
+   margin: 1rem auto;
+}
+.Product .ProductMain .ProductImg{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Product .ProductMain .ProductImg img{
+    width:100%;
+}
+.Product .ProductMain .ProductContent{
+    width: 80%;
+    margin: 0 auto;
+}
+.Product .ProductMain .ProductContent .Title{
+    width: 100%;
+    margin: 1rem 0;
+}
+.Product .ProductMain .ProductContent .Title h1{
+    color: #e8bf74;
+    font-family: SukarBold,sans-serif;
+    text-align: center;
+    direction: rtl;
+}
+.Product .ProductMain .ProductContent .Para{
+    width: 100%;
+    margin: 1rem 0;
+}
+.Product .ProductMain .ProductContent .Para p{
+    color: #ffffff;
+    font-family: SukarRegular;
+    text-align: justify;
+    font-size: 1.2rem;
+    direction: rtl;
+    line-height: 2.3rem;
+}
+.Product .ProductMain .ProductContent .Para p.Eng{
+    color: #ffffff;
+    font-family: SukarRegular;
+    text-align: justify;
+    font-size: 1.2rem;
+    direction: ltr;
+    line-height: 2.3rem;
+}
+
+@media(min-height:1024px){
+.Product{
+    height: 90vh;
+}
+}
+@media(max-width:1024px){
+    .Product .ProductMain{
+        width: 90%;
+    }
+    .Product .ProductMain .ProductContent .Para p{
+        font-size: 1rem;
+    }
+    
+}
+@media(max-width:768px){
+    .Product .ProductMain .ProductContent .Para p{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:600px){
+    .Product .ProductMain .ProductImg img{
+        width: 80%;
+    }
+    .Product .ProductMain .ProductContent .Title h1{
+        font-size: 1.5rem;
+    }
+}

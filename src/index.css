@@ -1,0 +1,43 @@
+@font-face {
+  font-family: DinLight;
+  src: url('./assets/fonts/DINLight.otf');
+}
+@font-face {
+  font-family: DinRegular;
+  src: url('./assets/fonts/DINRegular.otf');
+}
+@font-face {
+  font-family: DinMedium;
+  src: url('./assets/fonts/DINMedium.otf');
+}
+@font-face {
+  font-family: DinBold;
+  src: url('./assets/fonts/DINBold.otf');
+}
+@font-face {
+  font-family: SukarRegular;
+  src: url('./assets/fonts/SukarRegular.ttf');
+}
+@font-face {
+  font-family: SukarBold;
+  src: url('./assets/fonts/SukarBold.ttf');
+}
+@font-face {
+  font-family: SukarBalck;
+  src: url('./assets/fonts/SukarBlack.ttf');
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

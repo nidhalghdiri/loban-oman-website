@@ -1,0 +1,58 @@
+.ContactContainer{
+    width: 100%;
+    height: 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 0;
+}
+.ContactContainer .ContactTitle{
+    width: 100%;
+    text-align: center;
+}
+.ContactContainer .ContactTitle h1{
+    font-family:DINRegular,sans-serif;
+    color: #e8bf74;
+    text-transform: uppercase;
+}
+.ContactContainer .ContactForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactContainer .ContactForm .ContactFormGroup{
+    width: 80%;
+}
+.ContactContainer .ContactForm .ContactFormGroup label{
+    color: #e8bf74;
+    font-family: DINRegular,sans-serif;
+}
+.ContactContainer .ContactForm .FormBtn{
+    border: none;
+    width: 50%;
+    background-color: #3a2416;
+    color: #e8bf74;
+    border: 1px solid #e8bf74;
+    transition: all .3s ease-in-out;
+}
+
+.ContactContainer .ContactForm .FormBtn:hover{
+    background-color: #e8bf74;
+    transition: all .3s ease-in-out;
+    color: #3a2416;
+    border: 1px solid #3a2416;
+}
+
+
+@media (max-width: 600px){
+    .ContactContainer .ContactForm{
+        width: 80%;
+     
+    }
+}

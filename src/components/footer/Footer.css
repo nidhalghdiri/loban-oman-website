@@ -1,0 +1,110 @@
+.Footer{
+    width: 100%;
+    background-color: #3a2416;
+    padding: 1rem;
+}
+.Footer .SocialMediaMain{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    height: 100%;
+}
+
+.Footer .SocialMediaMain .SocialMediaIcon a {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Footer .SocialMediaMain .SocialMediaIcon img{
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    }
+    .Footer .SocialMediaMain .SocialMediaIcon img:hover{
+        transform: scale(1.2);
+        transition: all 0.3s ease-in-out;
+        }
+
+.Footer .SocialMediaMain .SocialMediaTxt{
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.Footer .SocialMediaMain .SocialMediaTxt span{
+    font-family: SukarRegular;
+    color: #fff;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+
+.Footer .ContactMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+.Footer .ContactMain .Email{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.Footer .ContactMain span{
+    font-family: SukarRegular;
+    color: #fff;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    
+}
+.Footer .QRCode{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Footer .QRCode img{
+    width: 60%;
+}
+.Footer .Dev{
+    width: 100%;
+    text-align: right;
+}
+.Footer .Dev span , .Footer .Dev a{
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.Footer .Dev a:hover{
+    color: #e8bf74;
+}
+
+@media(max-width:1250px){
+    .Footer .SocialMediaMain{
+        width: 70%;
+    }
+}
+
+@media(max-width:1100px){
+    .Footer .SocialMediaMain{
+        width: 80%;
+    }
+}
+
+@media(max-width:991px){
+    .Footer .SocialMediaMain{
+        width: 30%;
+    }
+    .Footer .QRCode{
+        display: none;
+    }
+}
+@media(max-width:576px){
+    .Footer .SocialMediaMain{
+        width: 60%;
+    }
+    
+}
